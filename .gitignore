@@ -11,5 +11,7 @@ build/
 coverage.xml
 dist/
 django_admin_honeypot.egg-info/
+django_honeypot_admin.egg-info/
 docs/_build/
 pep8.txt
+venv

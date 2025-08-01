@@ -10,11 +10,11 @@ Continuous integration provided by `Travis CI`_.
 
 .. _Travis CI: https://travis-ci.org/
 
-.. |travis-ci-master| image:: https://secure.travis-ci.org/dmpayton/django-admin-honeypot.png
-.. _travis-ci-master: http://travis-ci.org/dmpayton/django-admin-honeypot
+.. |travis-ci-master| image:: https://secure.travis-ci.org/Alien501/django-admin-honeypot.png
+.. _travis-ci-master: http://travis-ci.org/Alien501/django-admin-honeypot
 
-.. |travis-ci-develop| image:: https://secure.travis-ci.org/dmpayton/django-admin-honeypot.png?branch=develop
-.. _travis-ci-develop: http://travis-ci.org/dmpayton/django-admin-honeypot
+.. |travis-ci-develop| image:: https://secure.travis-ci.org/Alien501/django-admin-honeypot.png?branch=develop
+.. _travis-ci-develop: http://travis-ci.org/Alien501/django-admin-honeypot
 
 Test requirements
 -----------------
@@ -45,8 +45,9 @@ that this only tests against the latest Django release.
     ...
 
     _______________ summary _______________
-    django-2x: commands succeeded
     django-3x: commands succeeded
+    django-4x: commands succeeded
+    django-5x: commands succeeded
     congratulations :)
 
 

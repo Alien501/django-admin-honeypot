@@ -1,39 +1,41 @@
 =====================
-django-admin-honeypot
+django-honeypot-admin
 =====================
 
-.. image:: https://travis-ci.org/dmpayton/django-admin-honeypot.svg?branch=develop
-   :target: https://travis-ci.org/dmpayton/django-admin-honeypot
+.. image:: https://travis-ci.org/Alien501/django-admin-honeypot.svg?branch=develop
+   :target: https://travis-ci.org/Alien501/django-admin-honeypot
    :alt: Travis-CI
 
-.. image:: https://coveralls.io/repos/dmpayton/django-admin-honeypot/badge.svg?branch=develop
-   :target: https://coveralls.io/r/dmpayton/django-admin-honeypot
+.. image:: https://coveralls.io/repos/Alien501/django-admin-honeypot/badge.svg?branch=develop
+   :target: https://coveralls.io/r/Alien501/django-admin-honeypot
    :alt: Coverage
 
-.. image:: https://codeclimate.com/github/dmpayton/django-admin-honeypot/badges/gpa.svg?branch=develop
-   :target: https://codeclimate.com/github/dmpayton/django-admin-honeypot
+.. image:: https://codeclimate.com/github/Alien501/django-admin-honeypot/badges/gpa.svg?branch=develop
+   :target: https://codeclimate.com/github/Alien501/django-admin-honeypot
    :alt: Code Climate
 
 
-**django-admin-honeypot** is a fake Django admin login screen to log and notify
+**django-honeypot-admin** is a fake Django admin login screen to log and notify
 admins of attempted unauthorized access. This app was inspired by discussion
 in and around Paul McMillan's security talk at DjangoCon 2011.
 
-* **Author**: `Derek Payton <http://dmpayton.com/>`_
-* **Version**: 1.1.0
+* **Original Author**: `Derek Payton <http://dmpayton.com/>`_
+* **Current Maintainer**: `Vignesh (Alien501) <https://github.com/Alien501/>`_
+* **Version**: 2.0.0
 * **License**: MIT
+* **Django Compatibility**: 3.2+ (Latest Django versions supported)
 
 Documentation
 =============
 
-http://django-admin-honeypot.readthedocs.io
+http://django-honeypot-admin.readthedocs.io
 
 tl;dr
 -----
 
-* Install django-admin-honeypot from PyPI::
+* Install django-honeypot-admin from PyPI::
 
-        pip install django-admin-honeypot
+        pip install django-honeypot-admin
 
 * Add ``admin_honeypot`` to ``INSTALLED_APPS``
 * Update your urls.py:

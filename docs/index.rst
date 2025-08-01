@@ -1,25 +1,27 @@
 =================================================
-Welcome to django-admin-honeypot's documentation!
+Welcome to django-honeypot-admin's documentation!
 =================================================
 
-`django-admin-honeypot`_ is a fake Django admin login screen to log and notify
+`django-honeypot-admin`_ is a fake Django admin login screen to log and notify
 admins of attempted unauthorized access. This app was inspired by discussion in
 and around Paul McMillan's security talk at DjangoCon 2011.
 
-:Author: `Derek Payton`_
-:Version: 1.2.0
+:Original Author: `Derek Payton`_
+:Current Maintainer: `Vignesh (Alien501)`_
+:Version: 2.0.0
 :License: `MIT`_
+:Django Compatibility: 3.2+ (Latest Django versions supported)
 
 |travis-ci|_
 
-.. |travis-ci| image:: https://secure.travis-ci.org/dmpayton/django-admin-honeypot.png
-.. _travis-ci: http://travis-ci.org/dmpayton/django-admin-honeypot
+.. |travis-ci| image:: https://secure.travis-ci.org/Alien501/django-admin-honeypot.png
+.. _travis-ci: http://travis-ci.org/Alien501/django-admin-honeypot
 
 **Source**
-    `github.com/dmpayton/django-admin-honeypot <https://github.com/dmpayton/django-admin-honeypot>`_
+    `github.com/Alien501/django-admin-honeypot <https://github.com/Alien501/django-admin-honeypot>`_
 
 **Documentation**
-    `django-admin-honeypot.readthedocs.org <https://django-admin-honeypot.readthedocs.org/>`_
+    `django-honeypot-admin.readthedocs.org <https://django-honeypot-admin.readthedocs.org/>`_
 
 **Contents**
 
@@ -41,6 +43,7 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-.. _django-admin-honeypot: https://github.com/dmpayton/django-admin-honeypot
+.. _django-honeypot-admin: https://github.com/Alien501/django-admin-honeypot
 .. _Derek Payton: http://dmpayton.com
-.. _MIT: https://github.com/dmpayton/django-admin-honeypot/blob/master/LICENSE
+.. _Vignesh (Alien501): https://github.com/Alien501
+.. _MIT: https://github.com/Alien501/django-admin-honeypot/blob/develop/LICENSE

@@ -13,7 +13,7 @@ up their tracks if they had previously tried to break in through the honeypot.
 Why is the IP address logged as 127.0.0.1?
 ==========================================
 
-Django-admin-honeypot pulls the users IP address from the ``REMOTE_ADDR``
+django-honeypot-admin pulls the users IP address from the ``REMOTE_ADDR``
 request header. If your Django app is behind a load balancer or proxy web
 server, this may not be set and instead you will have an ``HTTP_X_FORWARDED_FOR``
 header which contains the IP address in a comma-separated string.

@@ -7,4 +7,4 @@
 {{ admin_detail_url }}
 
 ----
-django-admin-honeypot
+django-honeypot-admin

@@ -4,9 +4,10 @@ python:
 
 matrix:
   include:
-    - env: TOXENV=django-2.2
     - env: TOXENV=django-3.2
-    - env: TOXENV=django-4.0
+    - env: TOXENV=django-4.2
+    - env: TOXENV=django-5.0
+    - env: TOXENV=django-5.2
     - env: TOXENV=coverage
 
 install:
